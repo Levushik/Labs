@@ -8,7 +8,9 @@ public class Main {
             f.read(buffer,0, buffer.length);
             o.write(buffer, 0, buffer.length);
         } catch (Exception e) {
+            System.out.println("jh");
             throw new RuntimeException(e);
+
         }
     }
 }
